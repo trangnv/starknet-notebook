@@ -3,3 +3,5 @@ data_generation.ipynb
 .DS_Store
 .env
 .ipynb_checkpoints
+testdata
+model
