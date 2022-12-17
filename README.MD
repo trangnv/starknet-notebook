@@ -1,11 +1,15 @@
 # Jupyter notebook to interact with StarkNet contracts
 
-## Setup
-- installation
-- creating starknet account
-- `.env`
+# Setup and usage for [linear regression competition]()
 
-# Usage for linear regression competition 
+## Setup
+- Python environment installation
+- Creating starknet account
+- `.env` environment variables <br>
+Copy the `.env.example` file to a `.env` file and populate each variable (they are all mandatory)
+```bash
+cp examples/.env.example .env
+```
 
 ## Phase 0
 ### Organizer
@@ -13,6 +17,8 @@
 
 ## Phase 1
 ### Competitor
-- Train model with provided training data
-- Export model to `./model` e.g. `./model/mymodel.txt` which contains the weights
-- Commit the model using [competitor notebook]
+- Using [competitor notebook](competitor.ipynb) to train model with provided training data as normal data science workflow
+  - 1 extra step: export model to `mymodel.txt` which contains the weights
+- Commit the model to the contract, details provided in the notebook
+
+## Phase 2
