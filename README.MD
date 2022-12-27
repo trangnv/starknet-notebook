@@ -18,9 +18,8 @@ Copy the `.env.example` file to a `.env` file and populate each variable (they a
   ```
   - 
 ## Contracts on Goerli testnet
-- Contract address: 
-- Organizer role: 
-
+- Contract address: [0x06e1cb1066945810a7dbbc0550cfc623cc50330014587311d70c653965b59cbe](https://testnet.starkscan.co/contract/0x06e1cb1066945810a7dbbc0550cfc623cc50330014587311d70c653965b59cbe#overview)
+- Organizer address: [0x209b55deb9aa39481d5ee1e0b11291908c589305bd54f1148cf201d2f8c1898](https://testnet.starkscan.co/contract/0x0209b55deb9aa39481d5ee1e0b11291908c589305bd54f1148cf201d2f8c1898)
 
 ## Competition phase 0
 ### Organizer
