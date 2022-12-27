@@ -1,17 +1,28 @@
-# Jupyter notebook to interact with StarkNet contracts
-
-# Setup and usage for [linear regression competition](https://github.com/trangnv/linear-regression-starknet)
+# Jupyter notebooks to interact with [linear regression competition contracts](https://github.com/trangnv/linear-regression-starknet)
 
 ## Setup
 - Python environment installation
+  ```bash
+  python3.9 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
 - Creating starknet account
+  - Setup account with [AgentX](https://www.argent.xyz/argent-x/)
+  - Get account address and export private key
+
 - `.env` environment variables <br>
 Copy the `.env.example` file to a `.env` file and populate each variable (they are all mandatory)
-```bash
-cp examples/.env.example .env
-```
+  ```bash
+  cp examples/.env.example .env
+  ```
+  - 
+## Contracts on Goerli testnet
+- Contract address: 
+- Organizer role: 
 
-## Phase 0
+
+## Competition phase 0
 ### Organizer
 - Commit test data using [organizer notebook](linear-regression-notebooks/organizer.ipynb)
 
